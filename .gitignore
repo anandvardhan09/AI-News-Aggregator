@@ -1,0 +1,76 @@
+# === Node.js (Next.js frontend) ===
+node_modules/
+node_modules
+node_modules/
+frontend/node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.local
+.env.*.local
+
+# === Python (FastAPI backend) ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+venv/
+env/
+*.env
+.env
+*.sqlite3
+instance/
+*.egg-info/
+*.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === Editor & IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Logs & Reports ===
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# === Testing ===
+coverage/
+htmlcov/
+.tox/
+nosetests.xml
+test-results/
+junit.xml
+
+# === MongoDB (if using local data dumps) ===
+*.lock
+*.dump
+
+# === Tailwind CSS (if generating files manually) ===
+*.css.map
+
+# === Build Artifacts ===
+dist/
+build/
+*.egg
+*.whl
+
+# === Misc ===
+*.bak
+*.tmp
+*.temp
